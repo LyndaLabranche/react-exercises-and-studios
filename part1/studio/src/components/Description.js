@@ -8,10 +8,10 @@ function RecipeAuthor(){
     
     return (
         <div className = {styles.recipeAuthorBlock}>
-      <img src={authorPhoto} alt = "author" className={styles.imageUpdates} />
+      <img src={authorPhoto} alt = "author" width="250px" height="250px" className={styles.imageUpdates} />
       <div>
          <h3>{authorName}</h3>
-         <a href={authorLink}>Peace Love and Low Carb</a> 
+         <a href={authorLink}>Peace, Love, and Low Carb</a> 
       </div>
         </div>
     );
@@ -22,8 +22,8 @@ class RecipeDescription extends React.Component{
         return (
             <div> 
                 <div>
-                    <h1>Recipe Title</h1>
-                    <p>Short recipe description</p>
+                    <h1>Keto Chicken Enchilada Bowls</h1>
+                    <p>This Keto Chicken Enchilada Bowls Recipe is a delicious low carb and gluten free spin on traditional enchiladas.</p>
                 </div>
                 <RecipeAuthor />
             </div>
